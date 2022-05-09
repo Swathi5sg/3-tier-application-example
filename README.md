@@ -66,7 +66,7 @@ networks:
      driver: bridge
 ```
 
-Here we are taking nginx.conf file in order to implement nginx as a reverse-proxy for the all the request that hit the php app
+Here we are creating nginx.conf file in order to implement nginx as a reverse-proxy for the all the request that hit the php app
 
 This is nginx.conf file
 
@@ -100,7 +100,7 @@ To check the the running application
 
 
 
-Now access the phpmyadmin portal on the web using your localhost ip and port 81, which has been mapped in docker-compose file
+Now access the phpmyadmin portal on the web using your localhost ip and port 81, which has been exposed in docker-compose file
 
 ![Screen Shot 2022-05-09 at 4 39 53 PM](https://user-images.githubusercontent.com/35251635/167400079-63118b4a-e673-4691-9ffc-8cffdb1ee6f7.png)
 
